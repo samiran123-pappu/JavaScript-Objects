@@ -5,10 +5,9 @@ Values are stored as key:value pairs called properties.
 
 Functions are stored as key:function() pairs called methods.
 
-
 ```bash
 const person = {
-  firstName: "John",  // property 
+  firstName: "John",  // property
   lastName : "Doe",
   age      : 50,
   fullName : function() {
@@ -20,6 +19,22 @@ const person = {
 
 ```
 
+```bash
+
+Accessing JavaScript Properties
+You can access object properties in these ways:
+
+Dot notation
+Bracket notation
+Expression
+Examples
+// objectName.property
+let age = person.age;
+//objectName["property"]
+let age = person["age"];
+//objectName[expression]
+let age = person[x];
+```
 
 ```bash
 
