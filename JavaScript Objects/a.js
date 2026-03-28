@@ -8,6 +8,8 @@ const samiran = {
 }
 
 let a = samiran["age"];
-let b = samiran.fun();
+let b = samiran.gender;
+let c = samiran.fun();
 console.log(a);
 console.log(b);
+console.log(c);
