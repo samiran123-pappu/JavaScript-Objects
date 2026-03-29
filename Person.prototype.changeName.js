@@ -5,8 +5,12 @@ function Person(firstName,lastName,age,eyeColor) {
   this.age = age;
   this.eyeColor = eyeColor;
 }
+
+
 // Note:
 // The changeName() function assigns the value of name to the person's lastName property, substituting this with myMother.
+
+
 // Create a Person Object
 const myMother = new Person("Sally","Rally",48,"green");
 
