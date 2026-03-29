@@ -5,5 +5,5 @@ const person = {
   city: "New York"
 };
 
-
-console.log( "age" in person);
+let text = person;
+console.log(text)
