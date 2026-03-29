@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1>The <b>this</b> Keyword</h1>
+    <p>When used alone, <b>this</b> refers to the global object.</p>
+    <p>In this example, the global object is the <b>window object</b>.</p>
+
+    <p id="demo"></p>
+
+    <script>
+        let x = this;
+
+        document.getElementById("demo").innerHTML = "This is: " + x;
+        console.log(x);
+    </script>
+
+</body>
+
+</html>
